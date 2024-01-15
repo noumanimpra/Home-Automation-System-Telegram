@@ -1,5 +1,5 @@
-# Deneyap-Kart-Home-Automation-
-ESP32 based Deneyap Kart Home automation system. 
+# Home-Automation-System-Telegram
+ESP32 based Deneyap Kart Home automation system & Telegram Bot.
 ----
 
 #### This system uses the data sets which are coming from various sensors of deneyapkart like temprature, soil, rain, PIR eg. via i2c protocol.  <br>
