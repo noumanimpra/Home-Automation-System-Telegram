@@ -29,12 +29,13 @@
 
 // USR MACROS
 #define WIFI_SSID "WIFI_ADI"                                          // Bağlantı kurulacak Wi-Fi ağı adı
-#define WIFI_PASSWORD "PAROLA"                                 // Bağlantı kurulacak Wi-Fi ağı şifresi
-#define BOT_TOKEN "TELEGRAM:BOT:TOKEN:BOTFATHERDAN:ALINACAK" // Telegram BOT Token
+#define WIFI_PASSWORD "PAROLA"                                        // Bağlantı kurulacak Wi-Fi ağı şifresi
+#define BOT_TOKEN "TELEGRAM:BOT:TOKEN:BOTFATHERDAN:ALINACAK"          // Telegram BOT Token
 #define PRIVATE_CHAT_ID "KENDI_CHAT_IDNIZ"
 #define TEMPRATURE_ALARM_VALUE 30
-#define SOIL_MOISURE_ALARM_VALUE 1000 // pasive
+#define SOIL_MOISURE_ALARM_VALUE 1000                                 // pasive
 #define MIC_TRESHOLD 50
+
 #define TEMPRATURE_LOG bot.sendMessage(chat_id, "🌡️ Ortam Sıcaklığı [" + temp_y + " °C]", "");
 #define SOIL_LOG bot.sendMessage(chat_id, "🌱 Saksı nem oranı [" + temp_y + " ]", "");
 #define MUTE_LOG bot.sendMessage(chat_id, "Sessiz Mod [AÇIK]", "")
@@ -316,7 +317,7 @@ void m_I2C_Init(void)
   if (!DumanSensor.begin(0x20))
   {
     delay(3000);
-    ERR_LOGER(Duman Dedektoru);
+    ERR_LOGER(Duman Dedektoru); // while(1);
     f_12cerrsmoke = true;
   }
   if (!Hareket.begin(0x32))
