@@ -13,5 +13,26 @@ ESP32 based Deneyap Kart Home automation system & Telegram Bot.
 [🤖 BOT Interface](https://github.com/noumanimpra/Home-Automation-System-Telegram/tree/main/bot%20interface)
 
 
+----
+
+
+<div align="center">
+  
+## ~ Commands ~ <br>
+
+| Command         | DESCRİPTİON           |
+| :-------------: |:-------------|
+| `/help`      |    command infos         |
+| `/status`    |    request sensor status |
+| `/securemode`|    secure mode on/off    |
+| `/mutealarm` |    mute mode on/off      |
+| `/isik`      |    lighting menu         |
+| `/isikac`    |    light on              |
+| `/isikkapa`  |    light off             |
+| `/saksi`     |    soil moisture         |
+| `/sicaklik`  |    temprature value      |
+| `/securemode`|    are neat              |
+</div>
+
 
 
